@@ -1,46 +1,44 @@
-# daki-Tech
+🤖 DAKI TECH - AI Agent Builder
+DAKI TECH is an innovative platform designed to build and deploy custom AI agents in minutes. By leveraging RAG (Retrieval-Augmented Generation), these agents do more than just chat—they access and reason over your specific data to provide accurate, context-aware responses.
 
-Ce projet est une application web basée sur Next.js, conçue pour offrir une interface moderne et modulaire. Elle inclut des fonctionnalités de chat, de gestion d'agents, de commandes, d'intégrations et de paramètres, avec une architecture organisée en dossiers pour une meilleure maintenabilité.
+🌟 Key Features
+Custom AI Agents: Create specialized agents for E-commerce, Consulting, or Web Support with a simplified configuration workflow.
 
-## Structure du projet
+RAG Integration: Connect your agent to a personal knowledge base, allowing it to retrieve information from your own documents.
 
-- **app/** : Contient les pages principales de l'application (chat, dashboard, agents, etc.).
-- **components/** : Composants réutilisables de l'interface utilisateur (UI).
-- **hooks/** : Hooks personnalisés React.
-- **lib/** : Fonctions utilitaires et intégrations API.
-- **public/** : Fichiers statiques et images.
-- **styles/** : Fichiers CSS globaux.
-- **agent-backend/** : Scripts backend pour la gestion des agents et l'intégration de langchain.
+3-Step Setup: A streamlined process (Setup Chat, Setup Orders, and Setup RAG) designed for rapid deployment.
 
-## Installation
+Modern Architecture: Built with Next.js for a high-performance frontend and a robust backend for AI processing.
 
-1. Clonez le dépôt :
-   ```bash
-   git clone <url-du-repo>
-   cd daki-Tech
-   ```
-2. Installez les dépendances :
-   ```bash
-   pnpm install
-   ```
-3. Lancez le serveur de développement :
-   ```bash
-   pnpm dev
-   ```
+🛠️ Project Structure
+app/: Core application pages including the Dashboard, Chat interface, and Agent management.
 
-## Scripts utiles
-- `pnpm dev` : Démarre le serveur Next.js en mode développement.
-- `pnpm build` : Compile l'application pour la production.
-- `pnpm start` : Lance l'application en mode production.
+agent-backend/: Backend scripts focused on agent logic and RAG implementation.
 
-## Technologies principales
-- [Next.js](https://nextjs.org/)
-- [React](https://react.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [pnpm](https://pnpm.io/)
+components/: Reusable UI components for a consistent and modular interface.
 
-## Contribution
-Les contributions sont les bienvenues ! Veuillez ouvrir une issue ou une pull request pour proposer des améliorations.
+lib/: Utility functions and API integrations for AI services.
 
-## Licence
-Ce projet est sous licence MIT.
+🚀 Quick Start
+Clone the repository:
+
+Bash
+git clone <your-repo-url>
+cd daki-Tech
+Install dependencies:
+
+Bash
+pnpm install
+Environment Setup:
+Create a .env file in the root directory and add your necessary API keys (e.g., OpenAI or Anthropic).
+
+Run Development Server:
+
+Bash
+pnpm dev
+🧠 Technologies
+Frontend: Next.js (React & TypeScript)
+
+AI Engine: RAG (Retrieval-Augmented Generation)
+
+Package Manager: pnpm
