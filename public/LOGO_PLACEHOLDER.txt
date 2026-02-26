@@ -1,0 +1,4 @@
+ضع ملف logo.png هنا في مجلد public
+Place your logo.png file here in the public folder
+
+The logo should be approximately 96x32 pixels for best display in the header.

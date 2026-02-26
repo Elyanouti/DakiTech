@@ -1,0 +1,17 @@
+{
+  "name": "agent-backend",
+  "type": "module",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.30.0",
+    "tslib": "^2.8.1"
+  }
+}

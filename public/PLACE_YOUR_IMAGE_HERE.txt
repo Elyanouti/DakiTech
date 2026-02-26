@@ -1,0 +1,9 @@
+This is a placeholder for the pulverisateur image.
+Please replace this file with your actual PNG image of the pulverisateur.
+
+Instructions:
+1. Delete this file
+2. Place your PNG image here
+3. Name it exactly: pulverisateur.png
+
+The image will appear in the chat automatically.
